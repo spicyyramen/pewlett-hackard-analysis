@@ -26,7 +26,7 @@ The purpose of this project was to provide an analysis of potentially upcoming r
     - Assistant Engineer
     - Technique Leader
 
-![Eligible Mentor Titles](resources/mentor_titles.png)
+
 
 - The titles with highest number of potential retirees all have eligible mentors available.
 
@@ -37,5 +37,14 @@ The purpose of this project was to provide an analysis of potentially upcoming r
 - The amount of eligible mentors is only about 1.71% of the number of retiring employees, so there likely won't be enough mentors available. 
 
 
-A comparison of retiring employees vs eligible mentors by title
+
+### **Extra Analysis Tables**
+
+#### Counts of Eligible Mentors by Title
+
+![Eligible Mentor Titles](resources/mentor_titles.png)
+
+
+#### A comparison of retiring employees vs eligible mentors by title
+
 ![Retiring vs Eligible Mentors](resources/retiring_vs_mentor.png)
