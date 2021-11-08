@@ -59,3 +59,4 @@ left join dept_emp de
 on ce.emp_no = de.emp_no 
 group by de.dept_no
 order by de.dept_no; 
+
