@@ -49,3 +49,13 @@ where (birth_date between '1952-01-01' and '1955-12-31')
 and (hire_date between '1985-01-01' and '1988-12-31');
 
 select * from retirement_info;
+
+
+-- employee count by department number
+select count(ce.emp_no), de.dept_no
+into dept_counts
+from current_emp as ce
+left join dept_emp de 
+on ce.emp_no = de.emp_no 
+group by de.dept_no
+order by de.dept_no; 
